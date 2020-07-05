@@ -15,6 +15,7 @@ def write_csv(f_name):
     for line in new_content:
         new_file.write(line)
     new_file.close()
+    
 if __name__ == "__main__":
     f_name = sys.argv[1]
     write_csv(f_name)
